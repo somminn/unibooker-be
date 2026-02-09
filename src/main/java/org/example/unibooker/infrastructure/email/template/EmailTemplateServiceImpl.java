@@ -97,7 +97,7 @@ public class EmailTemplateServiceImpl implements EmailTemplateService {
         variables.put("businessNumber", businessNumber);
         variables.put("appliedDate", appliedDate);
         variables.put("rejectionReason", rejectionReason);
-        variables.put("signupUrl", "https://unibooker.kro.kr/admin/signup");
+        variables.put("signupUrl", "https://unibooker.p-e.kr/admin/signup");
 
         return renderTemplate("email/CompanyRejection", variables);
     }
